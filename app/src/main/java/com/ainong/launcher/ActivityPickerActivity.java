@@ -30,7 +30,6 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 public class ActivityPickerActivity extends ExpandableListActivity {
-    private String str = "text";
 	private PackageManager mPackageManager;
     private final class LoadingTask extends AsyncTask<Void, Void, Void> {
     	List<PackageInfo> groups;
